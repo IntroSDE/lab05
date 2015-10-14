@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -cp WebContent/WEB-INF/lib/*:build HelloWorldStandalone
+web:    ./deploy.sh
