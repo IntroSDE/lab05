@@ -2,3 +2,6 @@
 /README-LAB05-2013.md
 /README-LAB6-2013.md
 /.settings/
+/build/
+/ivy/
+/WebContent/WEB-INF/lib/*
