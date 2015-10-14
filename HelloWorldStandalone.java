@@ -10,7 +10,7 @@ public class HelloWorldStandalone
     public static void main(String[] args) throws IllegalArgumentException, IOException, URISyntaxException
     {
     	String protocol = "http://";
-        String port = ":5700/";
+        String port = ":"+String.valueOf(System.getenv("PORT"))+"/";
         String hostname = InetAddress.getLocalHost().getHostAddress();
         if (hostname.equals("127.0.0.1"))
         {
