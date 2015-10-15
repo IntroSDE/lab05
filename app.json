@@ -1,6 +1,8 @@
 {
-  "name": "Getting Started with Java on Heroku",
-  "description": "A barebones Java app, which can easily be deployed to Heroku.",
+  "name": "IntroSDE Laboratory 5",
+  "description": "The first lab about REST services",
+  "repository": "https://github.com/IntroSDE/lab05",
+  "logo": "https://avatars0.githubusercontent.com/u/11249211?v=3&s=200",
   "image": "heroku/java",
   "env": {
     "BUILDPACK_URL": "https://github.com/dennisg/heroku-buildpack-ant.git",
