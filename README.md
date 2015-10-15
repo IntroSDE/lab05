@@ -293,7 +293,8 @@ Links: [PPT slides][1] | [PDF slides][2] | [Source code][3]
     }
     ```
 
-* Run as a Java Application and then request for: **http://localhost:5700/helloworld/Cristhian%20Parra?age=35**
+* Run as a Java Application and then request for: **http://localhost:5700/salutation/Cristhian%20Parra?age=35**
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### Brief Summary of Jersey annotations (10 min)
