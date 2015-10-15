@@ -110,7 +110,7 @@
                 </manifest>
             </war>
         </target>
-        <target name="run" depends="compile" >
+        <target name="install" depends="compile" >
             <echo message="app start introsde.rest.jersey.hello.HelloWorldStandalone in ${build.dir}" />
             <java classname="introsde.rest.jersey.hello.HelloWorldStandalone" classpath="${build.dir}" fork="true">
                 <arg value="$JAVA_OPTS  -cp" />
