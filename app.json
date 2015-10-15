@@ -9,14 +9,6 @@
     "HEROKU_URL": {
       "description": "The URL of this Heroku app.",
       "value": "http://YOURAPPNAME.herokuapp.com"
-    },
-    "ANT_HOME": {
-      "description": "ant home address",
-      "value": "/app/.buildpack/apache-ant-1.9.3"
-    },
-    "PATH":{
-      "description": "path address",
-      "value": "/usr/local/bin:/usr/bin:/bin:/app/.buildpack/apache-ant-1.9.3/bin"  	
     }
   } 
 }
