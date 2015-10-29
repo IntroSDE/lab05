@@ -328,7 +328,7 @@ Links: [PPT slides][1] | [PDF slides][2] | [Source code][3]
 
 * **Eclipse WTP** provides tools for developing standard Java web applications and Java EE applications
 * To install, use **Help -> Install new software -> All Available Sites**
-* Search for **Web Tools Platform** in the list and install all what's inside that category for the latest version
+* Search for **Web Tools Platform** in the list and install all what's inside that category for the latest version. If you cannot find it, you may need to add a new repository, i.e. http://download.eclipse.org/webtools/updates
 * In old versions of eclipse, there might be a category "Web, XML, Java EE Development and OSGi Enterprise Development". 
 * Existing projects can seize the possibilities of WTP by converting them into **Dynamic Web** Projects. This is done in Eclipse by going to **Project -> Properties -> Project Facets -> Enable "Dynamic Web Module"**.  
 
